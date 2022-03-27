@@ -11,6 +11,7 @@
   inputs.src-nimpass-v0_0_8.ref   = "refs/tags/v0.0.8";
   inputs.src-nimpass-v0_0_8.owner = "xioren";
   inputs.src-nimpass-v0_0_8.repo  = "NimPass";
+  inputs.src-nimpass-v0_0_8.dir   = "";
   inputs.src-nimpass-v0_0_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
